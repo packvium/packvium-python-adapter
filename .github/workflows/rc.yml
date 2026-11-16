@@ -6,7 +6,7 @@ name: rc
 #
 # Before the first RC, once (the owner):
 #   1. Create an account on https://test.pypi.org (separate from the PyPI one) and enable 2FA.
-#   2. Add a pending Trusted Publisher for project `packvium-native`: owner `toxakara`, repository
+#   2. Add a pending Trusted Publisher for project `packvium-native`: owner `packvium`, repository
 #      `packvium-python-adapter`, workflow `rc.yml`, environment `testpypi`.
 #   3. In this repository, create a GitHub environment named `testpypi` with the same
 #      reviewers as `pypi`.

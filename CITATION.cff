@@ -5,10 +5,10 @@ type: software
 authors:
   - name: "Packvium contributors"
     website: "https://packvium.com"
-version: "1.10.0"
+version: "1.11.0"
 license: MIT
 url: "https://packvium.com"
-repository-code: "https://github.com/toxakara/packvium-python-adapter"
+repository-code: "https://github.com/packvium/packvium-python-adapter"
 abstract: >-
   Packvium backend selector: the native engine when a wheel is available, pure Python otherwise.
 keywords:
