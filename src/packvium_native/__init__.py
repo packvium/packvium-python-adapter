@@ -4,7 +4,7 @@ import json
 from types import ModuleType
 from typing import Any, Optional
 
-__version__ = "1.10.0"
+__version__ = "1.11.0"
 
 #: Each untyped model error's code and the prefix the core's `PackError` writes before its
 #: detail (`packvium-core` `error.rs`). `packvium` reports a model it cannot build as reason

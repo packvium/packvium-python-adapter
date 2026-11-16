@@ -19,7 +19,7 @@ The `native` extra installs the platform wheel. To use only the fallback, instal
 `packvium-native` is not on PyPI yet. Until the native wheels ship, install it from source:
 
 ```bash
-pip install git+https://github.com/toxakara/packvium-python-adapter packvium
+pip install git+https://github.com/packvium/packvium-python-adapter packvium
 ```
 
 ## Quick start
@@ -87,26 +87,26 @@ Documentation, the constraint reference and the benchmarks are at
 
 | Package | Install | Source |
 | --- | --- | --- |
-| Python — [`packvium`](https://pypi.org/project/packvium/) | `pip install packvium` | [packvium-python](https://github.com/toxakara/packvium-python) |
-| PHP — [`packvium/packvium`](https://packagist.org/packages/packvium/packvium) | `composer require packvium/packvium` | [packvium-php](https://github.com/toxakara/packvium-php) |
-| Rust — [`packvium`](https://crates.io/crates/packvium) | `packvium = "1.10"` | [packvium-rust](https://github.com/toxakara/packvium-rust) |
-| Node.js — [`@packvium/engine`](https://www.npmjs.com/package/@packvium/engine) | `npm install @packvium/engine` | [packvium-node](https://github.com/toxakara/packvium-node) |
-| Browser / WebAssembly — [`@packvium/browser`](https://www.npmjs.com/package/@packvium/browser) | `npm install @packvium/browser` | [packvium-wasm](https://github.com/toxakara/packvium-wasm) |
-| PHP FFI bridge — [`packvium/native-bridge`](https://packagist.org/packages/packvium/native-bridge) | `composer require packvium/native-bridge` | [packvium-php-bridge](https://github.com/toxakara/packvium-php-bridge) |
-| Python native selector — `packvium-native` | from source until the native wheels ship | [packvium-python-adapter](https://github.com/toxakara/packvium-python-adapter) |
+| Python — [`packvium`](https://pypi.org/project/packvium/) | `pip install packvium` | [packvium-python](https://github.com/packvium/packvium-python) |
+| PHP — [`packvium/packvium`](https://packagist.org/packages/packvium/packvium) | `composer require packvium/packvium` | [packvium-php](https://github.com/packvium/packvium-php) |
+| Rust — [`packvium`](https://crates.io/crates/packvium) | `packvium = "1.11"` | [packvium-rust](https://github.com/packvium/packvium-rust) |
+| Node.js — [`@packvium/engine`](https://www.npmjs.com/package/@packvium/engine) | `npm install @packvium/engine` | [packvium-node](https://github.com/packvium/packvium-node) |
+| Browser / WebAssembly — [`@packvium/browser`](https://www.npmjs.com/package/@packvium/browser) | `npm install @packvium/browser` | [packvium-wasm](https://github.com/packvium/packvium-wasm) |
+| PHP FFI bridge — [`packvium/native-bridge`](https://packagist.org/packages/packvium/native-bridge) | `composer require packvium/native-bridge` | [packvium-php-bridge](https://github.com/packvium/packvium-php-bridge) |
+| Python native selector — `packvium-native` | from source until the native wheels ship | [packvium-python-adapter](https://github.com/packvium/packvium-python-adapter) |
 
 ## Citation
 
 If Packvium supports your research, cite it as software. GitHub's **Cite this repository**
-button reads [`CITATION.cff`](https://github.com/toxakara/packvium-python-adapter/blob/main/CITATION.cff), and
-[`codemeta.json`](https://github.com/toxakara/packvium-python-adapter/blob/main/codemeta.json) carries the same record in
+button reads [`CITATION.cff`](https://github.com/packvium/packvium-python-adapter/blob/main/CITATION.cff), and
+[`codemeta.json`](https://github.com/packvium/packvium-python-adapter/blob/main/codemeta.json) carries the same record in
 CodeMeta form.
 
 ```bibtex
 @software{packvium_python_adapter,
   author  = {{Packvium contributors}},
   title   = {Packvium native backend selector for Python},
-  version = {1.10.0},
+  version = {1.11.0},
   license = {MIT},
   url     = {https://packvium.com}
 }
