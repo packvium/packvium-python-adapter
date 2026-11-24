@@ -16,12 +16,6 @@ pip install 'packvium-native[native]' packvium
 The `native` extra installs the platform wheel. To use only the fallback, install
 `packvium-native` together with `packvium`.
 
-`packvium-native` is not on PyPI yet. Until the native wheels ship, install it from source:
-
-```bash
-pip install git+https://github.com/packvium/packvium-python-adapter packvium
-```
-
 ## Quick start
 
 ```python
@@ -89,7 +83,7 @@ Documentation, the constraint reference and the benchmarks are at
 | --- | --- | --- |
 | Python — [`packvium`](https://pypi.org/project/packvium/) | `pip install packvium` | [packvium-python](https://github.com/packvium/packvium-python) |
 | PHP — [`packvium/packvium`](https://packagist.org/packages/packvium/packvium) | `composer require packvium/packvium` | [packvium-php](https://github.com/packvium/packvium-php) |
-| Rust — [`packvium`](https://crates.io/crates/packvium) | `packvium = "1.11"` | [packvium-rust](https://github.com/packvium/packvium-rust) |
+| Rust — [`packvium`](https://crates.io/crates/packvium) | `packvium = "1.12"` | [packvium-rust](https://github.com/packvium/packvium-rust) |
 | Node.js — [`@packvium/engine`](https://www.npmjs.com/package/@packvium/engine) | `npm install @packvium/engine` | [packvium-node](https://github.com/packvium/packvium-node) |
 | Browser / WebAssembly — [`@packvium/browser`](https://www.npmjs.com/package/@packvium/browser) | `npm install @packvium/browser` | [packvium-wasm](https://github.com/packvium/packvium-wasm) |
 | PHP FFI bridge — [`packvium/native-bridge`](https://packagist.org/packages/packvium/native-bridge) | `composer require packvium/native-bridge` | [packvium-php-bridge](https://github.com/packvium/packvium-php-bridge) |
@@ -106,7 +100,7 @@ CodeMeta form.
 @software{packvium_python_adapter,
   author  = {{Packvium contributors}},
   title   = {Packvium native backend selector for Python},
-  version = {1.11.0},
+  version = {1.12.0},
   license = {MIT},
   url     = {https://packvium.com}
 }

@@ -4,6 +4,11 @@ What changed in `packvium-native` (Python), release by release. The format follo
 [Keep a Changelog](https://keepachangelog.com/1.1.0/) and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.12.0]
+
+No changes of its own. The `native` extra is pinned to `packvium-native-rust==1.12.0`. Both
+packages are on PyPI from 1.11.0, so the pre-publication notice is gone from the README.
+
 ## [1.11.0]
 
 No changes of its own; the `native` extra is pinned to `packvium-native-rust==1.11.0`, and the
